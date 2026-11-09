@@ -1,0 +1,16 @@
+name = "basement"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+account_id = "5720da6d44d657b2af62534f125691fc"
+
+[durable_objects]
+bindings = [
+  { name = "ROOM", class_name = "Room" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Room"]
+
+[assets]
+directory = "./public"

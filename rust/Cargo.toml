@@ -1,0 +1,21 @@
+[package]
+name = "rust_lib_basement"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+flutter_rust_bridge = "=2.13.0"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "webp"] }
+rand = "0.8"
+base64 = "0.22"
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(frb_expand)'] }
+
+[profile.release]
+opt-level = "z"
+lto = true
+strip = true
