@@ -1,17 +1,13 @@
-# basement
+# Basement
 
-A new Flutter project.
+A private, throwaway chat room for friends. Make a room, share the 5-digit code, chat. When the host leaves, everything is gone.
 
-## Getting Started
+[![Download for Android](https://img.shields.io/badge/Download-Basement.apk-black?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ziadkarem00/basement-releases/releases/latest/download/basement.apk)
 
-This project is a starting point for a Flutter application.
+## Install (Android)
+1. Tap the button above to download the APK.
+2. Open the file. If Android asks, allow installing from this source.
+3. If Play Protect warns that the app is unsafe, tap **More details**, then **Install anyway**. This happens because the app isn't on the Play Store.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## iPhone
+There's no iPhone app. Open the room link in Safari, then tap **Share**, then **Add to Home Screen**.
